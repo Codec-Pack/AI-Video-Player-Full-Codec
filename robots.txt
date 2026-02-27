@@ -1,0 +1,14 @@
+# Robots.txt for SEO
+User-agent: *
+Allow: / 
+Allow: /index.html
+
+# Disallow crawling of certain paths if needed
+Disallow: /admin/
+Disallow: /.git/
+
+# Sitemap
+Sitemap: https://AI-Video-Player-Full-Codec.github.io/sitemap.xml
+
+# Crawl Delay (optional)
+Crawl-delay: 1
