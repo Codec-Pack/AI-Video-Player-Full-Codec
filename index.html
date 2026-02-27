@@ -709,92 +709,163 @@
         .steps li {
             counter-increment: my-counter;
             background: white;
-            padding: 15px;
-            margin-bottom: 10px;
-            border-radius: 8px;
-            display: flex;
-            align-items: center;
-            gap: 15px;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Video Player Codec Pack | Download .so Files</title>
+    <meta name="description" content="Download FFmpeg .so files for AI Video Player. Fix AC3, DTS, and 4K playback issues instantly.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary: #2563eb; /* Professional Blueish */
+            --primary-hover: #1d4ed8;
+            --dark: #0f172a;
+            --gray: #64748b;
+            --bg: #f8fafc;
         }
 
-        .steps li::before {
-            content: counter(my-counter);
-            background: var(--primary);
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--dark);
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        header {
+            background: var(--dark);
             color: white;
-            width: 28px;
-            height: 28px;
-            border-radius: 50%;
-            display: flex;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 { font-size: 2.2rem; margin-bottom: 10px; }
+        header p { opacity: 0.8; font-size: 1.1rem; }
+
+        .container {
+            max-width: 800px;
+            margin: -30px auto 0;
+            padding: 0 20px 60px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 40px 30px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            text-align: center;
+        }
+
+        .description { margin-bottom: 30px; font-size: 1.1rem; color: #334155; }
+
+        /* The Blueish Download Button */
+        .btn {
+            display: inline-flex;
             align-items: center;
             justify-content: center;
-            font-weight: bold;
-            flex-shrink: 0;
+            background-color: var(--primary);
+            color: white;
+            padding: 16px 40px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: 0.2s ease-in-out;
+            width: 100%;
+            max-width: 400px;
         }
 
-        footer {
-            text-align: center;
-            padding: 40px;
-            color: #64748b;
-            font-size: 0.9rem;
+        .btn:hover {
+            background-color: var(--primary-hover);
+            transform: translateY(-1px);
         }
 
-        /* Specific Android/Mobile Optimizations */
+        .file-info { margin-top: 12px; font-size: 0.85rem; color: var(--gray); }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+            text-align: left;
+        }
+
+        .item h3 { font-size: 1rem; color: var(--primary); margin-bottom: 5px; }
+        .item p { font-size: 0.9rem; color: var(--gray); }
+
+        .steps-box {
+            background: #f1f5f9;
+            padding: 25px;
+            border-radius: 8px;
+            text-align: left;
+        }
+
+        .steps-box h2 { font-size: 1.2rem; margin-bottom: 15px; }
+        .steps-box ol { padding-left: 20px; font-size: 0.95rem; }
+        .steps-box li { margin-bottom: 8px; }
+
+        footer { margin-top: 40px; font-size: 0.85rem; color: var(--gray); text-align: center; }
+
         @media (max-width: 600px) {
-            header { padding: 60px 15px; }
-            .card { padding: 25px 20px; }
-            .btn { padding: 15px 20px; font-size: 1rem; }
+            .card { padding: 30px 20px; }
+            header h1 { font-size: 1.75rem; }
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>AI Video Player Codec</h1>
-    <p>Professional FFmpeg .so library pack for seamless high-definition playback on all devices.</p>
+    <h1>Codec Pack for AI Player</h1>
+    <p>Prebuilt FFmpeg .so files for Android</p>
 </header>
 
 <div class="container">
     <div class="card">
-        <h2>🚀 Fix Media Errors Instantly</h2>
-        <p>Are you getting "Format not supported" or "Video not playing" errors? Our <strong>AI Video Player Codec Pack</strong> is specifically compiled to handle AC3, DTS, TrueHD, and high-bitrate 4K MKV files that standard players can't decode.</p>
+        <p class="description">
+            Fix "Format not supported" and audio issues instantly. This pack adds support for <strong>AC3, DTS, and 4K MKV</strong> playback.
+        </p>
 
-        <div class="download-zone">
-            <h3>Download Codec Pack (ZIP)</h3>
-            <p style="margin-bottom: 20px; color: #64748b;">Contains prebuilt .so files for ARMv7, ARMv8, and x86 architectures.</p>
-            <a href="https://drive.google.com/file/d/17hmlbGlErP0_7dLMhA-Rg1PuYeKbKSFY/view?usp=sharing" class="btn" target="_blank" rel="noopener">
-                Download Full Codec Pack
-            </a>
-            <p style="margin-top: 15px; font-size: 0.85rem;">🔒 Secure Link via Google Drive</p>
-        </div>
+        <a href="https://drive.google.com/file/d/17hmlbGlErP0_7dLMhA-Rg1PuYeKbKSFY/view?usp=sharing" class="btn" target="_blank">
+            Download Codec Pack (ZIP)
+        </a>
+        <p class="file-info">Version 1.7.x • Supports ARMv7, ARMv8, x86</p>
 
         <div class="grid">
-            <div class="feature-item">
-                <h3>Universal Support</h3>
-                <p>Support for H.264, H.265 (HEVC), VP9, and AV1 video streams.</p>
+            <div class="item">
+                <h3>Full Audio</h3>
+                <p>AC3, DTS, TrueHD support.</p>
             </div>
-            <div class="feature-item">
-                <h3>High-End Audio</h3>
-                <p>Decodes AC3, DTS, DTS-HD, and TrueHD for a cinema-like experience.</p>
+            <div class="item">
+                <h3>4K Ready</h3>
+                <p>Smooth HEVC/VP9 decoding.</p>
             </div>
-            <div class="feature-item">
-                <h3>Prebuilt .so Files</h3>
-                <p>No compilation needed. Optimized for Android 10, 11, 12, 13, and 14.</p>
+            <div class="item">
+                <h3>No Setup</h3>
+                <p>Prebuilt ready-to-use files.</p>
             </div>
         </div>
 
-        <h2>🛠️ Installation Steps</h2>
-        <ul class="steps">
-            <li>Download the ZIP file from the button above.</li>
-            <li>Extract the `.so` files to a folder on your phone.</li>
-            <li>Open AI Video Player > Settings > Decoder.</li>
-            <li>Select "Custom Codec" and point it to the extracted folder.</li>
-            <li>Restart the app and enjoy all formats!</li>
-        </ul>
+        <div class="steps-box">
+            <h2>Quick Setup</h2>
+            <ol>
+                <li>Download and extract the ZIP.</li>
+                <li>Go to Player <strong>Settings > Decoder</strong>.</li>
+                <li>Tap <strong>Custom Codec</strong> and select the folder.</li>
+                <li>Restart the app to apply.</li>
+            </ol>
+        </div>
     </div>
 
     <footer>
-        <p>&copy; 2026 AI Video Solutions. Based on FFmpeg Project.</p>
-        <p>This pack is distributed under LGPL/GPL licenses.</p>
+        <p>Based on FFmpeg LGPL • Developed by Baswaraj Patil</p>
     </footer>
 </div>
 
